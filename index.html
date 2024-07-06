@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mariposa Creations</title>
+  <!-- Bootstrap CSS -->
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <a class="navbar-brand" href="#">Mariposa Creations</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item active">
+          <a class="nav-link" href="index.html">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="about.html">About</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Content -->
+  <div class="container mt-4">
+    <h1>Welcome to Mariposa Creations</h1>
+    <!-- left blank to space out my code-->
+    <img src="https://i.pinimg.com/originals/c5/6d/bf/c56dbfc8264631bccd64c7dc76e0e69b.jpg" alt="Handmade Jewelry">
+<!-- GOOGLE PICTURE OF A WHITE BUTTERFLY-->
+    <!-- Bootstrap Grid System Example -->
+    <div class="row">
+      <div class="col-md-6">
+        <h2></h2> <!--left blank as a design choice-->
+        <p>Established in 2024, we are a local jewelry store that specializes in handmade jewelry and accessories.<br>
+            All our jewelry is locally crafted with love.</p>
+      </div>
+      <div class="col-md-6">
+        <h2>Contact Us</h2>
+        <p>PH: 321-432-1234</p>
+      </div>
+    </div>
+
+    <!-- Bootstrap Table-->
+    <h2 class="mt-4">Current Inventory</h2>
+    <table class="table">
+      <thead class="thead-dark">
+        <tr>
+          <th>#</th>
+          <th>Materials</th>
+          <th>Type of Jewelry</th>
+          <th>Size of Jewelry</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>1</td>
+          <td>Mother of Pearl</td>
+          <td>Ring</td>
+          <td>Size 6</td>
+        </tr>
+        <tr>
+          <td>2</td>
+          <td>Turquoise beads with butterfly charm</td>
+          <td>Bracelet</td>
+          <td>16.5-19 cm (with extender)</td>
+        </tr>
+
+        <tr>
+            <td>3</td>
+            <td>Mauve beads with butterfly charm</td>
+            <td>Necklace</td>
+            <td>18-25 cm (with extender)</td>
+          </tr>
+          <!-- added three rows to my table-->
+      </tbody>
+    </table>
+
+    <!-- Bootstrap Form Example -->
+    <h2 class="mt-4">Create an account</h2>
+    <form>
+      <div class="form-group">
+        <label for="exampleInputEmail1">Email address</label>
+        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+        <small id="emailHelp" class="form-text text-muted">Sign up to buy cute jewelry and to recieve updates on <br>
+           our latest jewlery. Thank you for supporting our small business. </small>
+      </div>
+      <div class="form-group">
+        <label for="exampleInputPassword1">Password</label>
+        <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+      </div>
+      <button type="submit" class="btn btn-primary">Submit</button>
+    </form>
+
+  </div>
+
+  <!-- Bootstrap JS and dependencies -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.2/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
